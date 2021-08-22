@@ -1,0 +1,24 @@
+body{
+  background-color:rgb(255, 245, 233);
+}
+
+.header{
+  background-color: rgb(65, 65, 121);
+  color: #fff;
+  height: 70px；
+}
+
+
+h1 {
+  color: blue;
+  background: pink;
+}
+
+li {
+  list-style: none;
+  padding: 20px 30px;
+}
+
+ul {
+  display: flex;
+}
