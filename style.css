@@ -1,5 +1,6 @@
 body{
-  background-color:rgb(255, 245, 233);
+  color: #fff;
+  background-color:rgb(65, 65, 121);
 }
 
 .header{
@@ -8,10 +9,26 @@ body{
   height: 70px；
 }
 
-
 h1 {
-  color: blue;
-  background: pink;
+  color: #fff;
+  text-align: center;
+}
+
+
+.about-me {
+  /* background-image: url("https://i.ibb.co/dJ31mpv/top.png" ); */
+  position: relative;
+}
+
+.about-me img {
+  width: 100vw;
+}
+
+.about-me-text {
+  position: absolute;
+  top: 28%;
+  left: 28%;
+  text-align: center;
 }
 
 li {
@@ -21,4 +38,12 @@ li {
 
 ul {
   display: flex;
+}
+
+img {
+  width: 100%;
+}
+
+.feature {
+  
 }
