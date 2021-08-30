@@ -3,6 +3,19 @@ body{
   background-color:rgb(65, 65, 121);
 }
 
+a {
+  color: #fff;
+}
+
+.btn {
+  background:pink;
+  padding: 8px 16px;
+}
+.btn:hover {
+    opacity: 0.3;
+    color: white;
+  }
+ 
 .header{
   background-color: rgb(65, 65, 121);
   color: #fff;
@@ -15,10 +28,10 @@ h1 {
 }
 
 
-.about-me {
+/* .about-me { */
   /* background-image: url("https://i.ibb.co/dJ31mpv/top.png" ); */
-  position: relative;
-}
+  /* position: relative; */
+/* } */
 
 .about-me img {
   width: 100vw;
