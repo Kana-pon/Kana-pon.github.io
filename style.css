@@ -8,55 +8,148 @@ a {
 }
 
 .btn {
-  background:pink;
   padding: 8px 16px;
 }
+
 .btn:hover {
-    opacity: 0.3;
-    color: white;
-  }
+  color: white;
+  background-color: rgb(36, 36, 65);
+  user-select: none;
+}
  
-.header{
+.header {
   background-color: rgb(65, 65, 121);
   color: #fff;
-  height: 70px；
+  height: 70px;
+  text-align: right;
 }
 
 h1 {
   color: #fff;
   text-align: center;
+  padding-top: 32px;
 }
 
+.header ul {
+  display: flex;
+}
 
-/* .about-me { */
-  /* background-image: url("https://i.ibb.co/dJ31mpv/top.png" ); */
-  /* position: relative; */
-/* } */
+.header li {
+  list-style: none;
+  padding: 20px 30px;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://i.ibb.co/dJ31mpv/top.png" );
+  background-size: cover;
+  width: 100%;
+  height: 880px;
+  margin-top: 20px;
+}
 
 .about-me img {
   width: 100vw;
 }
 
 .about-me-text {
-  position: absolute;
+  /* position: absolute;
   top: 28%;
-  left: 28%;
+  left: 28%; */
   text-align: center;
+  font-size:x-large;
 }
 
-li {
-  list-style: none;
-  padding: 20px 30px;
+.pochi {
+  text-decoration: none;
+  text-align: center;
+  background: #fff;
+  color: rgb(65, 65, 121);
+  display: block;
+  width: 140px;
+  line-height: 44px;
+  margin: 40px auto 48px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 4px;
 }
 
-ul {
+
+.youtube,.features,.country > h1 {
+  font-size: 32px;
+}
+
+
+.features ul {
   display: flex;
 }
 
-img {
+.features li {
+  list-style: none;
+  /* padding: 20px 30px; */
+  height: 640px;
+  margin: 0 auto;
+  padding: 0 30px;
+  display: flex;
+  /* justify-content: space-between; */
+  cursor: pointer;
+}
+
+
+/* .container > h1{
+  font-size:32px;
+} */
+
+.country img {
   width: 100%;
 }
 
-.feature {
-  
+/* .country > h1 {
+  text-align: center;
+  padding: 64px 0; */
+  /* font-weight: normal; */
+/* } */
+
+.country {
+  margin: 0 32px;
+}
+
+.country section {
+  padding-bottom: 32px;
+}
+
+.info > h1 {
+  font-size:32px;
+  font-weight: normal;
+}
+
+.info > p {
+  font-size: 20px;
+}
+
+@media (min-width: 900px) {
+  .country .container {
+    height: 720px;
+    margin: 0 auto;
+  }
+
+  .country section {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .country section:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+
+  .country .pic{
+    width: 100%;
+  }
+
+  .country .info {
+    width: calc(50% - 32px);
+  }
 }
